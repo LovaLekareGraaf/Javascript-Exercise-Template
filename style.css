@@ -44,12 +44,36 @@ p{
   color: #909495;
 }
 
+.spongebobheading{
+  font-size: 70px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #909495;
+  font-family: serif;
+  font-weight: 100;
+  background-color: white;
+  text-align: center;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #cecece;
+}
+
 .allNews{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-evenly;
 }
+
+.spongebob{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-evenly;
+}
+
 
 .news {
   border-style:solid;
