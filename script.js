@@ -1,7 +1,7 @@
 // Our variables
 const key = "979c446a2b42469a812e69a8e3e06cf5"
 const url = `https://newsapi.org/v2/everything?excludeDomains=mashable.com,wired.com,lifehacker.com,instructables.com,thekitchn.com,theguardian.com&sortBy=popularity&q=mushroom&q=fungai&q=spongebob&apiKey=${key}`
-const url1= `https://newsapi.org/v2/everything?excludeDomains=mashable.com,boingboing.net,kottke.org&sortBy=popularity&q=spongebob+squarepants&apiKey=${key}`
+const url1= `https://newsapi.org/v2/everything?language=en&excludeDomains=bleacherreport.com,mashable.com,boingboing.net,kottke.org,thepointsguy.com&sortBy=popularity&q=spongebob+squarepants&apiKey=${key}`
 
 // Our main function
 const recievedNews = (newsdata) => {
