@@ -1,0 +1,108 @@
+body{
+  background-image: url("./images/svampar.jpg");
+}
+
+h1{
+  font-size: 110px;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: sans-serif;
+  background-color: pink;
+  border-style: groove;
+  border-color: #CECECE;
+  font-weight: 100;
+}
+
+h2{
+  font-size: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #909495;
+  font-family: serif;
+  font-weight: 100;
+}
+
+h3{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #909495;
+}
+
+.p1{
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #909495;
+}
+
+p{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: #909495;
+}
+
+.allNews{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-evenly;
+}
+
+.news {
+  border-style:solid;
+  border-width: 1px;
+  border-color: #F7BDC5;
+  margin: 20px;
+  max-width: 500px;
+  background-color: #FDF6EB;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroNews {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.heroarticle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-style:solid;
+  border-width: 1px;
+  border-color: #F7BDC5;
+  background-color: #FDF6EB;
+  margin-bottom: 50px;
+}
+
+.heroimg{
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+img {
+	width:100%;
+}
+
+.button{
+  background-color:#F6BEC5;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  max-width: 180px;
+}
